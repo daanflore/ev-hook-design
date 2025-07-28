@@ -1,0 +1,5 @@
+[core]
+    attributesfile = .gitattributes
+[filter "zippey"]
+    smudge = ./zippey.py d
+    clean = ./zippey.py e
